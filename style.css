@@ -1,0 +1,178 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    position:sticky;
+    top: 0; 
+     /* position: fixed; */ 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    /* width: 100vw;   */
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    min-width: 250px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+nav div a i{
+    font-size: 25px;
+}
+nav div a{
+    text-decoration: none;
+    color: black;
+    border-bottom :2px solid #ffffff;
+}
+nav div a:hover{
+    border-bottom :2px solid yellow;
+}
+
+
+/* first main */
+.firstmain{
+    display: flex;
+    margin: 0 10px 10px 10px;  
+     
+}
+.firstmain h1{
+    font-size: 7vw;
+}
+.firstmain p{
+    font-size: 4vw;
+    font-weight: 5;
+}
+.firstmain img{
+    width: 70vw;
+    border-radius: 20px;
+}
+
+
+/* Second Class */
+.secondmain{
+    margin: 30px 10px 0 10px;
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.secondmain div {
+    padding: 20px 10px;
+}
+.secondmain div h3{
+    margin-bottom: 15px;
+}
+.secondmain div p{
+    font-weight: 400;
+    color: rgb(100, 97, 97);
+}
+.secondmain div div{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.secondmain div div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    border-bottom: 1px solid #ffffff;
+}
+.secondmain div div a:hover{
+border-bottom: 1px solid rgb(182, 181, 178);
+}
+.secondmain img{
+    border-radius: 0px 10px 10px 0;
+}
+
+/* .mainthird */
+.mainthird{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.mainthirddiv{
+    width: 300px;
+    border: 1px solid rgb(126, 120, 120);
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.mainthird div h3{
+    margin-bottom: 15px;
+}
+.mainthird p{
+    font-weight: 400;
+    color: rgb(100, 97, 97);
+}
+.mainthird div div {
+    padding: 10px 10px;
+}
+.mainthird div div div{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.mainthird div div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    border-bottom: 1px solid #ffffff;
+}
+.mainthird div div div a:hover{
+border-bottom: 1px solid rgb(182, 181, 178);
+}
+.mainthird div img{
+    width: 298px;
+    border-radius: 10px 10px 0  0;
+}
+
+
+/* fourthmain */
+.fourthmain img{
+width: 50vw;
+}
+
+
+/* footer */
+footer{
+    border-top: 1px solid rgb(153, 149, 149);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    /* width: 100vw;   */
+    font-weight: 100;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+footer div a i{
+    font-size: 20px;
+}
+footer div a{
+    text-decoration: none;
+    color: black;
+    border-bottom :2px solid #ffffff;
+}
